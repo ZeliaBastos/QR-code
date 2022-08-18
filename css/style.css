@@ -1,18 +1,26 @@
 body {
-  background-color: #d6e2f0;
+  background-color: hsl(212, 45%, 89%);
   font-size: 15px;
   font-family: "Outfit", sem serifa;
 }
 .container {
   text-align: center;
   background-color: #ffffff;
-  width: 320px;
-  height: 500px;
+  width: 310px;
+  height: 480px;
   border-radius: 20px;
   margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .code {
   border-radius: 10px;
   width: 280px;
-  margin: 18px;
+  margin: 15px;
+}
+h2 {
+  color: hsl(218, 44%, 22%);
+}
+p {
+  color: hsl(220, 15%, 55%);
 }
