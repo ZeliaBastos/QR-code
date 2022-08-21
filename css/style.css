@@ -7,8 +7,8 @@ body {
 .container {
   text-align: center;
   background-color: #ffffff;
-  width: 310px;
-  height: 480px;
+  width: 320px;
+  height: 495px;
   border-radius: 20px;
   margin: auto;
   margin-top: 60px;
@@ -16,8 +16,9 @@ body {
 }
 .code {
   border-radius: 10px;
-  width: 280px;
-  margin: 15px;
+  width: 290px;
+  margin: 15px 15px 0px 15px;
+  border: 1px solid #5887df;
 }
 h2 {
   color: hsl(218, 44%, 22%);
@@ -26,6 +27,9 @@ h2 {
 p {
   color: hsl(220, 15%, 55%);
   font-weight: 400;
+}
+.text {
+  margin: 0px 30px;
 }
 .attribution {
   font-size: 11px;
