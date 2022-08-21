@@ -1,8 +1,9 @@
 body {
   background-color: hsl(212, 45%, 89%);
   font-size: 15px;
-  font-family: "Outfit", sem serifa;
+  font-family: "Outfit", sans-serif;
 }
+
 .container {
   text-align: center;
   background-color: #ffffff;
@@ -20,7 +21,16 @@ body {
 }
 h2 {
   color: hsl(218, 44%, 22%);
+  font-weight: 700;
 }
 p {
   color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
