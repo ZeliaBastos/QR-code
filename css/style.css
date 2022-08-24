@@ -7,18 +7,21 @@ body {
 .container {
   text-align: center;
   background-color: #ffffff;
-  width: 320px;
+  max-width: 320px;
   height: 495px;
   border-radius: 20px;
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
+  padding: 1px;
 }
 .code {
   border-radius: 10px;
   width: 290px;
   margin: 15px 15px 0px 15px;
   border: 1px solid #5887df;
+  display: block;
+  object-fit: cover;
 }
 h2 {
   color: hsl(218, 44%, 22%);
